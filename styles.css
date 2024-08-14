@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHI1MGF2b2tpenlkMGd0MXV5M2R0NGNvYjBmcWpkZXJxenlybnV2cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vy42fjZIQdoas/giphy.gif') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
